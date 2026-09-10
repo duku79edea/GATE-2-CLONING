@@ -77,11 +77,18 @@ nav{
     gap: 30px;
     grid-template-columns: repeat(2,1fr);
 }
+.main-3{
+    display: grid;
+    width: 800px;
+    gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+}
+
 #article{
     background-image: url(/images/the20new20management20playbook20for20ai-thumb-1536x1536.webp);
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 800px;
     width: 400px;
     align-content: end;
     color: white;
@@ -102,6 +109,7 @@ nav{
     background-position: center;
     height: 400px;
     width: 400px;
+    margin-top: 40px;
     align-content: end;
     color: white;
 }
@@ -119,8 +127,9 @@ nav{
     background-image: url(/images/the-state-of-ai-2026-1322348212-thumb-1536x1536.webp);
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 600px;
     width: 400px;
+    margin-top: 150px;
     align-content: end;
     color: white;
 }
@@ -138,7 +147,7 @@ nav{
     background-image: url(/images/disruptor_tokenomics20opt20220bigger.webp);
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 600px;
     width: 400px;
     align-content: end;
     color: white;
@@ -153,38 +162,183 @@ nav{
     font-weight: 700;
     padding: 20px;
 }
-#future{
-    margin-top: 4rem;
-}
-#future h1{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-}
-#news{
-    margin-top: 30px;
-    background-image: url(/images/shortlist-newsletter-banner.webp);
-    height: 500px;
-    background-repeat: no-repeat;
-    background-color: black;
+#case-study{
+    background-image: url(/images/mckinsey_casestudy_reckitt_organization_hero_1920x960px.webp);
+    height: 700px;
+    width: 500px;
     background-size: cover;
     background-position: center;
+    align-content: start;
+    color: white;
 }
-.email{
-    width: 450px;
-    height: 50px;
+#case-study h1{
+    margin-top: 10px;
     padding: 20px;
 }
-.sub-btn{
+#case-study p{
+    font-size: 56px;
+    font-weight: lighter;
+    padding: 20px;
+}
+#case-study button{
+    margin-top: 13rem;
+    height: 60px;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+#form{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(69, 69, 148);
+}
+#form p{
+    color: white;
+    padding: 20px;
+    text-align: center;
     font-size: 20px;
-    width: 150px;
+}
+#form input{
+    width: 400px;
     height: 50px;
+    margin: 20px;
     padding: 20px;
 }
-
-
-
-
-#demo{
-    margin-bottom: 20rem;
+.lines{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
 }
+.lines span{
+    flex: 1;
+    height: 1px;
+    width: 5px;
+    background-color: white;
+    margin: 10px;
+}
+.Buttons{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top:25px;
+    font-size: 20px;
+    background: transparent;
+}
+.btn{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+.google{
+    font-size: 30px;
+    font-weight: bold;
+}
+.linkedin{
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 2px 4px;
+}
+#future h1 {
+    color: white;
+    text-align: center;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+#news {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url("/images/shortlist-newsletter-banner.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+#news::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+}
+#news h2,
+#news p,
+#btn {
+    position: relative;
+    z-index: 1;
+}
+#news h2 {
+    max-width: 650px;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 1.15;
+    margin-bottom: 25px;
+}
+#news p {
+    max-width: 650px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+#btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.email {
+    width: 480px;
+    height: 55px;
+    padding: 0 18px;
+    border: none;
+    background: white;
+    font-size: 17px;
+}
+.sub-btn {
+    width: 145px;
+    height: 55px;
+    border: none;
+    background: white;
+    color: black;
+    font-size: 17px;
+    padding: 0 18px;
+}
+#pod{
+    width: 100%;
+    height: 700px;
+    background-color: hsl(240, 100%, 30%);
+    padding: 5rem;
+    color: white;
+}
+#pod h1{
+    font-size: 70px;
+    margin-bottom:30px ;
+}
+.mess p{
+    width: 800px;
+    font-size: 26px;
+}
+.mess button{
+    width: 300px;
+    height: 60px;
+    background: none;
+    color: white;
+    font-size: 24px;
+    border: 1px solid white;
+}
+.mess{
+    display: flex;
+    gap: 100px;
+}
+
+
