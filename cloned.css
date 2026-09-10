@@ -51,6 +51,9 @@ nav{
     font-size: 1.1rem;
     font-family: "Helvetica Neue", sans-serif;
 }
+main{
+    display: flex;
+}
 #section-1{
     margin-top: 3rem;
     display: flex;
@@ -83,7 +86,10 @@ nav{
     gap: 30px;
     grid-template-columns: repeat(2,1fr);
 }
-
+.main-4{
+    display: grid;
+    gap: 30px;
+}
 #article{
     background-image: url(/images/the20new20management20playbook20for20ai-thumb-1536x1536.webp);
     background-size: cover;
@@ -164,12 +170,14 @@ nav{
 }
 #case-study{
     background-image: url(/images/mckinsey_casestudy_reckitt_organization_hero_1920x960px.webp);
-    height: 700px;
+    height: 1200px;
     width: 500px;
+    margin-top: 5rem;
     background-size: cover;
     background-position: center;
     align-content: start;
     color: white;
+
 }
 #case-study h1{
     margin-top: 10px;
@@ -181,7 +189,7 @@ nav{
     padding: 20px;
 }
 #case-study button{
-    margin-top: 13rem;
+    margin-top: 40rem;
     height: 60px;
     padding: 10px;
     margin-left: 20px;
@@ -223,7 +231,6 @@ nav{
     justify-content: center;
     margin-top:25px;
     font-size: 20px;
-    background: transparent;
 }
 .btn{
     width: 120px;
@@ -232,6 +239,9 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 18px;
+    background: none;
+    border: 1px solid white;
+    color: white;
 }
 .google{
     font-size: 30px;
@@ -242,6 +252,8 @@ nav{
     font-weight: bold;
     border: 2px solid white;
     padding: 2px 4px;
+    color: black;
+    background-color: white;
 }
 #future h1 {
     color: white;
@@ -251,6 +263,7 @@ nav{
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 30px;
+    margin-top: 80px;
 }
 #news {
     position: relative;
@@ -265,12 +278,6 @@ nav{
     flex-direction: column;
     justify-content: center;
     color: white;
-}
-#news::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.35);
 }
 #news h2,
 #news p,
@@ -315,7 +322,7 @@ nav{
 }
 #pod{
     width: 100%;
-    height: 700px;
+    height: 1200px;
     background-color: hsl(240, 100%, 30%);
     padding: 5rem;
     color: white;
@@ -340,5 +347,92 @@ nav{
     display: flex;
     gap: 100px;
 }
-
-
+.main-card {
+    height: 650px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    margin-top:50px ;
+}
+.text {
+    color: black;
+    padding: 40px;
+}
+.date {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.text h1 {
+    font-size: 40px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+}
+.text h1 span {
+    color: #1557ed;
+    font-size: 55px;
+}
+.description {
+    font-size: 22px;
+    line-height: 1.7;
+}
+.image {
+    background-image: url("images/manufacturing.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding-left: 5px;
+}
+.video-controls {
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-size: 18px;
+}
+.line {
+    height: 2px;
+    background: white;
+    flex: 1;
+}
+.bottom-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 45px;
+    margin-top: 35px;
+}
+.small-card {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.bar {
+    width: 100%;
+    height: 7px;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.small-card.active .bar {
+    background: #0db9ff;
+}
+.small-card p {
+    padding-left: 10px;
+}
