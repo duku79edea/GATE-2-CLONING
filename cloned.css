@@ -73,18 +73,23 @@ nav{
 }
 .main-2{
     display: grid;
+    width: 800px;
     gap: 30px;
+    grid-template-columns: repeat(2,1fr);
 }
 #article{
     background-image: url(/images/the20new20management20playbook20for20ai-thumb-1536x1536.webp);
+    background-size: cover;
+    background-position: center;
     height: 700px;
-    width: 420px;
+    width: 400px;
     align-content: end;
     color: white;
 }
-#article h1{
+#article h6{
     font-weight: 100;
     padding: 20px;
+    font-size: 30px;
 }
 #article p{
     font-size: 32px;
@@ -93,15 +98,89 @@ nav{
 }
 #podcast{    
     background-image: url(/images/ed20conway20image-thumb-1536x1536vf.webp);
+    background-size: cover;
+    background-position: center;
     height: 400px;
-    width: 420px;
-    object-fit: fill;
+    width: 400px;
+    align-content: end;
+    color: white;
 }
-
-
-
-
-
+#podcast h6{
+    font-size: 30px;
+    font-weight:lighter;
+    padding: 20px;
+}
+#podcast p{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 20px;
+}
+#survey{    
+    background-image: url(/images/the-state-of-ai-2026-1322348212-thumb-1536x1536.webp);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    align-content: end;
+    color: white;
+}
+#survey h6{
+    font-size: 30px;
+    font-weight:lighter;
+    padding: 20px;
+}
+#survey p{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 20px;
+}
+#upcome{    
+    background-image: url(/images/disruptor_tokenomics20opt20220bigger.webp);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    align-content: end;
+    color: white;
+}
+#upcome h6{
+    font-size: 30px;
+    font-weight:lighter;
+    padding: 20px;
+}
+#upcome p{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 20px;
+}
+#future{
+    margin-top: 4rem;
+}
+#future h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+#news{
+    margin-top: 30px;
+    background-image: url(/images/shortlist-newsletter-banner.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.email{
+    width: 450px;
+    height: 50px;
+    padding: 20px;
+}
+.sub-btn{
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    padding: 20px;
+}
 
 
 
