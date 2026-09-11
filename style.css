@@ -212,7 +212,7 @@ main{
 #form{
     width: 500px;
     height: 400px;
-    background-color: rgb(69, 69, 148);
+    background-color: hsl(180, 25%, 10%);
 }
 #form p{
     color: white;
@@ -220,17 +220,30 @@ main{
     text-align: center;
     font-size: 20px;
 }
-#form input{
-    width: 400px;
-    height: 50px;
+.email-box input{
+    flex: 1;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+.email-box{
+    display: flex;
+    width: 450px;
     margin: 20px;
-    padding: 20px;
+}
+.email-box button{
+    width: 55px;
+    background-color: lightskyblue;
+    color: white;
+    border: none;
+    font-size: 28px;
 }
 .lines{
     display: flex;
     align-items: center;
-    gap: 30px;
-    width: 100%;
+    gap: 5px;
+    width: 90%;
+    margin-left: 15px;
 }
 .lines span{
     flex: 1;
@@ -247,9 +260,10 @@ main{
     font-size: 20px;
 }
 .btn{
-    width: 120px;
+    width: 130px;
     height: 50px;
     display: flex;
+    font-size: 16px;
     align-items: center;
     justify-content: center;
     gap: 18px;
@@ -258,15 +272,18 @@ main{
     color: white;
 }
 .google{
-    font-size: 30px;
+    font-size: 18px;
     font-weight: bold;
 }
 .linkedin{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     border: 2px solid white;
     padding: 2px 4px;
     color: black;
+    width: 28px;
+    height: 25px;
+    border-radius: 2px;
     background-color: white;
 }
 #future h1 {
