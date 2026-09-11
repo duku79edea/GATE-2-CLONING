@@ -68,11 +68,25 @@ main{
     margin-left: 180px;
 }
 #para{
-    width: 600px;
+    width: 700px;
+    max-width: 80%;
     color:white;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 20px;
     margin-bottom: 60px;
+}
+.para{
+    display: flex;
+}
+.para button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 34px;
+    color: white;
+    background-color: darkslategray;
+    border: none;
+    margin: 18px 0;
 }
 .main-2{
     display: grid;
@@ -105,8 +119,8 @@ main{
     font-size: 30px;
 }
 #article p{
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 500;
     padding: 20px;
 }
 #podcast{    
@@ -125,8 +139,8 @@ main{
     padding: 20px;
 }
 #podcast p{
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 500;
     padding: 20px;
 }
 #survey{    
@@ -145,8 +159,8 @@ main{
     padding: 20px;
 }
 #survey p{
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 500;
     padding: 20px;
 }
 #upcome{    
@@ -164,8 +178,8 @@ main{
     padding: 20px;
 }
 #upcome p{
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 500;
     padding: 20px;
 }
 #case-study{
@@ -189,7 +203,7 @@ main{
     padding: 20px;
 }
 #case-study button{
-    margin-top: 40rem;
+    margin-top: 35rem;
     height: 60px;
     padding: 10px;
     margin-left: 20px;
